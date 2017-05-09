@@ -1,0 +1,767 @@
+body{
+	background-color: #3a3a3a;
+}
+form.navbar-form.navbar-left{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+div.input-group{
+	z-index: 0;
+}
+div.container{
+	padding: 0;
+}
+.navbar-brand img{
+    float: left;
+    height: 50px;
+    width: auto;
+}
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-brand p{
+    float: left;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0;
+}
+
+/* Full-width input fields */
+.log_in_width div.container{
+	padding-bottom: 20px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+	padding-top: 45px;
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+@media (min-width: 1200px){
+
+	.log_in_width div.container{
+		width: 500px;
+	}
+}
+header nav li span{
+	display: inline-block;
+	color: #9d9d9d;
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+button.navbar-toggle{
+	width: 6%;
+	margin-right: 40px;
+}
+button.dropbtn{
+	padding: 0 0 0 10px;
+}
+.dropbtn {
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li .dropdown button.btn.btn-success{
+border-radius: 0;
+}
+button.dropbtn img{
+    width: auto;
+    height: 30px; 
+    float: left;  
+}
+button.dropbtn span{
+    margin-left: 10px;
+    float: left;
+    padding-top: 7px;
+}
+.menu{
+	padding-top:180px;
+}
+.menu a{
+	padding-top: 180px;
+	text-decoration: none;
+	color: white;
+}
+.menu h1{
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 5px;
+}
+.menu h3{
+	font-size: 16px;
+	padding-bottom: 50px;
+}
+.menu ul li{
+	list-style: none;
+	line-height: 35px;
+	font-size: 18px;
+	font-family: "Calibri";
+}
+.menu a:hover{
+	color: #BEBEBE;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #BEBEBE;
+	padding-top: 0px;
+}
+.menu ul li a:hover{
+	color: #ffffff;
+}
+.container .menu ul{
+    padding-left: 0;
+}
+.choose{
+	padding-top: 130px;
+}
+.choose h1{
+	font-family: "Raleway";
+	font-weight: 100;
+	font-style: normal;
+	line-height: 60px;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+.choose p{
+	text-align: center;
+	font-size: 16px;
+	color: #747474;
+	font-weight: bold;
+}
+
+div.img_blog img{
+	width: 100%;
+	height: 211px;
+}
+.good{
+	display: inline-block;
+	margin-top: 25px;
+}
+.good img:hover{
+	opacity: 0.6;
+}
+.img_blog:before{
+	content: "";
+	position: absolute;
+	box-shadow: 0 15px 10px rgba(0,0,0,.6);
+	left: 20px;
+	right: 50%;
+	bottom: 10px;
+	height: 30%;
+	z-index: -1;
+	border-radius: inherit;
+	transform: skewY(-6deg);
+}
+.img_blog:after{
+	content: "";
+	position: absolute;
+	box-shadow: 0 15px 10px rgba(0,0,0,.6);
+	left: 50%;
+	right: 20px;
+	bottom: 10px;
+	height: 30%;
+	z-index: -1;
+	border-radius: inherit;
+	transform: skewY(6deg);
+}
+.skaling{
+    z-index: 1111;
+    height: 211px;
+}
+
+.parallax .bgimg1{
+	background-image: url("../images/banner(4).jpg");
+	min-height: 300px;
+	position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{    
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption span.sometext{
+	background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.goods1 img{
+	width: 100%;
+	height: 350px;
+	box-shadow:0 0 20px 7px rgba(0, 0, 0, .6);
+}
+.goods1{
+	margin-bottom: 50px;
+	position: relative;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.goods1:hover .image {
+  opacity: 0.2;
+}
+
+.goods1:hover .middle {
+  opacity: 1;
+}
+
+.info_text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.parallax .bgimg2{
+	background-image: url("../images/banner4.jpg");
+	min-height: 300px;
+	position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax .bgimg3{
+	background-image: url("../images/Dresses-_Banner6.jpg");
+	min-height: 300px;
+	position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sign_up{
+	background-image: url("../images/blog-inner-1.jpg");
+}
+
+.feedback1{
+	border-top: solid 2px #000;
+	background: url(../images/bg_feedack.jpg) no-repeat;
+	background-size: cover;
+}
+#log_in{
+	background:  rgba(255,255,255,0.8);
+}
+.feedback {
+	margin-top: 25px;
+	margin-bottom: 25px;
+    background: rgba(58,58,58,0.8);
+    width: 33.333%;
+    display: inline-block;
+    text-align: center;
+}
+.bgclr{
+	width: 75%;
+	margin-left: 13%;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	background-color: #222222;
+
+}
+
+#name, #email, #telephone{
+    padding: 15px 15px 0px;
+}
+#name input{
+	background-color: #383838;
+}
+#email input{
+	background-color: #383838;
+}
+#telephone input{
+	background-color: #383838;
+}
+.feedback input {
+    width: 90%;
+    height: 40px;
+    padding: 0 5px;
+    border: none;
+    color: #ffffff;
+}
+.feedback1 .container {
+    text-align: center;
+    margin: 0 auto;
+}
+.send {
+	padding-top: 10px;
+    text-align: center;
+    
+}
+.feedback1 .client{
+    font-size: 400%;
+	color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.feedback1 input[type=submit]{
+    text-decoration: none;
+    background: #bf2626;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 20px;
+    border-radius: 5px;
+    border-bottom: 3px solid #910000;
+    width: 82%;
+}
+.feedback1 .contant{
+	text-align: center;
+	font-size: 25px;
+	padding: 25px 0 25px;
+	font-weight: bold;
+	color: #ffffff;
+}
+#wrapper footer {
+    background: #252525;
+    color: #fff;
+}
+
+#wrapper footer .item .text {
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    padding: 20px 0 15px 5px;
+    font-size:14px;
+    background: #252525;
+}
+
+#wrapper footer .contacts {
+    float: left;
+    display: inline-block;
+}
+
+#wrapper footer .contacts tr td a,  #wrapper footer .adress{
+    color: #a3a3a3;
+}
+
+#wrapper footer .contacts tr td a:hover, #wrapper footer .contacts tr td a:focus {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+#wrapper footer table td:last-child{
+    padding:0 0 0px 60px;
+}
+
+#wrapper footer .share1 {
+    display: inline-block;
+    float: right;
+} 
+
+#wrapper footer .share1 .s_media .insta a.img_cover {background: url(../images/icon-i.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .fb a.img_cover {background: url(../images/icon-f.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .vb a.img_cover {background: url(../images/icon-v.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .gg a.img_cover {background: url(../images/icon-g.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .tw a.img_cover {background: url(../images/icon-t.png) no-repeat top center/contain; display: block;}
+
+#wrapper footer .share1 .s_media .insta a.img_cover:hover {background: url(../images/insta.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .fb a.img_cover:hover {background: url(../images/fb.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .vb a.img_cover:hover {background: url(../images/vb.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .gg a.img_cover:hover {background: url(../images/gg.png) no-repeat top center/contain; display: block;}
+#wrapper footer .share1 .s_media .tw a.img_cover:hover {background: url(../images/tw.png) no-repeat top center/contain; display: block;}
+
+
+#wrapper footer .share1 .s_media .wp a.img_cover {
+    height: 27px;
+    width: 30px;
+    display: inline-block;
+}
+
+.share1 .fb a, .share1 .vb a, .share1 .insta a, .share1 .gg a, .share1 .tw a{
+    padding-top: 0px; 
+    text-align: left;
+    min-width: 23px;
+    min-height: 30px;
+    display: block;
+    margin: 5px 6px; 
+}
+
+#wrapper footer .adress {
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+}
+
+.footer-s-media>div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin-top: 0;
+}
+
+.s_media.footer-s-media {
+    display: inline-flex;
+    text-align: left;
+    float: right;
+    width: 190px;
+}
+
+.cover {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+
+
+
+/*****Men Section*****/
+.men_banner{
+	background-image: url("../images/banner7.jpg");
+	min-height: 400px;
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow:0 0 20px 7px rgba(0, 0, 0, .7);
+}
+.men_product{
+	margin-top: 50px;
+}
+.men_product .men_goods:hover{
+    box-shadow:0 2px 10px 7px rgba(0, 0, 0, .5);
+}
+
+.men_product .men_goods img{
+	width: 100%;
+	height: 250px;
+}
+.men_goods{
+	margin-top: 30px;
+}
+.men_product button{
+    margin: 0;
+}
+.men_product button:hover{
+    background-color: #08B2E3;
+    color: white;
+}
+.men_product p{
+    background-color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.men_product span{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*****Women Section*****/
+.women_banner{
+	background-image: url("../images/banner2-fashion-week-ny.jpg");
+	min-height: 400px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:0 0 20px 7px rgba(0, 0, 0, .7);
+}
+.women_product{
+    margin-top: 50px;
+}
+.women_product .women_goods:hover{
+    box-shadow:0 2px 10px 7px rgba(0, 0, 0, .5);
+}
+
+.women_product .women_goods img{
+    width: 100%;
+    height: 250px;
+}
+.women_goods{
+    margin-top: 30px;
+}
+.women_product button{
+    margin: 0;
+}
+.women_product button:hover{
+    background-color: #08B2E3;
+    color: white;
+}
+.women_product p{
+    background-color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.women_product span{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*****Kids Section*****/
+.kids_banner{
+    background-image: url("../images/bannerfinal(56).jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:0 0 20px 7px rgba(0, 0, 0, .7);
+}
+.kids_product{
+    margin-top: 50px;
+}
+.kids_product .kids_goods:hover{
+    box-shadow:0 2px 10px 7px rgba(0, 0, 0, .5);
+}
+
+.kids_product .kids_goods img{
+    width: 100%;
+    height: 250px;
+}
+.kids_goods{
+    margin-top: 30px;
+}
+.kids_product button{
+    margin: 0;
+}
+.kids_product button:hover{
+    background-color: #08B2E3;
+    color: white;
+}
+.kids_product p{
+    background-color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.kids_product span{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/*****Sale Section*****/
+.sale_banner{
+    background-image: url("../images/salebanner.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:0 0 20px 7px rgba(0, 0, 0, .7);
+}
+
+.bgimg4 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-image: url('../images/zback.jpg');
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.text-white{
+    color: #fff!important;
+}
+.animate-opacity{
+    animation: opac 0.8s;
+}
+.display-container{
+    position: relative;
+}
+.display-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.animate-top{
+    position: relative;
+    animation: animatetop 0.4s;
+}
+
+.border-grey{
+    border-color: #9e9e9e!important;
+}
+.border-grey hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.center{
+    text-align: center!important;
+}
+.large{
+    font-size: 18px!important;
+}
